@@ -13,6 +13,6 @@ app.get("*", (req, res) => {
   res.status(404).sendFile(__dirname + "/404.html");
 });
 
-app.listen(PORT, () => console.log(`Server is running in port ${port}!`.green));
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}!`.green));
 
 module.exports = app;
