@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>My Portofolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../public/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../public/img/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../public/img/favicon.ico">
+    <link rel="manifest" href="../public/img/site.webmanifest">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../public/css/mwl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  </head>
+  <body id="mainContent">
+    <div class="container">
+      <div class="profile">
+      <img class="icon" src="../public/img/logo.png">
+      <h1 class="name"><%= authorName %></h1>
+      <p class="desc"><%= authorDesc %></p>
+      </div>
+      <div class="about">
+        <p class="git">
+          <i class="fab fa-github"></i><a href="<%= githubLink %>" target="_blank" class="gn"><%= githubName%></a>
+        </p>
+        <p class="tele">
+          <i class="fab fa-telegram"></i><a href="<%= telegramLink %>" target="_blank" class="tn"><%= telegramName %></a>
+        </p>
+        <p class="mail">
+          <i class="fas fa-envelope"></i><a href="<%= authorMail %>" target="_blank" class="mn"><%= authorMail %></a>
+      </div>
+      <div class='dark-link' onclick='darkMode()'>
+        <svg class='line svg-1' data-text='Dark mode' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'/></svg>
+        <svg class='line svg-2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><circle cx='12' cy='12' r='5'/><line x1='12' x2='12' y1='1' y2='3'/><line x1='12' x2='12' y1='21' y2='23'/><line x1='4.22' x2='5.64' y1='4.22' y2='5.64'/><line x1='18.36' x2='19.78' y1='18.36' y2='19.78'/><line x1='1' x2='3' y1='12' y2='12'/><line x1='21' x2='23' y1='12' y2='12'/><line x1='4.22' x2='5.64' y1='19.78' y2='18.36'/><line x1='18.36' x2='19.78' y1='5.64' y2='4.22'/></svg>
+      </div>
+      <footer>
+        <div class="ftr">
+          <p>Made with <span class='love'>❤️</span> by <a href="/"><%= authorName %></a></p>
+        </div>
+      </footer>
+    </div>
+   <script src="../public/js/script.js"></script>
+  </body>
+</html>
