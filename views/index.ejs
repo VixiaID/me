@@ -18,18 +18,18 @@
     <div class="container">
       <div class="profile">
       <img class="icon" src="../public/img/logo.png">
-      <h1 class="name"><%= authorName %></h1>
-      <p class="desc"><%= authorDesc %></p>
+      <h1 class="name"><%= name %></h1>
+      <p class="desc"><%= desc %></p>
       </div>
       <div class="about">
         <p class="git">
-          <i class="fab fa-github"></i><a href="<%= githubLink %>" target="_blank" class="gn"><%= githubName%></a>
+          <i class="fab fa-github"></i><a href="https://github.com/<%= github %>" target="_blank" class="gn"><%= github %></a>
         </p>
         <p class="tele">
-          <i class="fab fa-telegram"></i><a href="<%= telegramLink %>" target="_blank" class="tn"><%= telegramName %></a>
+          <i class="fab fa-telegram"></i><a href="https://t.me/<%= telegram %>" target="_blank" class="tn"><%= telegram %></a>
         </p>
         <p class="mail">
-          <i class="fas fa-envelope"></i><a href="<%= authorMail %>" target="_blank" class="mn"><%= authorMail %></a>
+          <i class="fas fa-envelope"></i><a href="<%= mail %>" target="_blank" class="mn"><%= mail %></a>
       </div>
       <div class='dark-link' onclick='darkMode()'>
         <svg class='line svg-1' data-text='Dark mode' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'/></svg>
@@ -37,7 +37,7 @@
       </div>
       <footer>
         <div class="ftr">
-          <p>Made with <span class='love'>❤️</span> by <a href="/"><%= authorName %></a></p>
+          <p>Made with <span class='love'>❤️</span> by <a href="/"><%= name %></a></p>
         </div>
       </footer>
     </div>
