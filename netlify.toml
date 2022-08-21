@@ -4,6 +4,6 @@
   status = 404
 
 [[redirects]]
-  from = "/public/*"
+  from = "/public/"
   to = "/public/error/403.html"
   status = 403
