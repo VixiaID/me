@@ -1,10 +1,8 @@
+ErrorDocument 404 /public/error/404.html
+
 Options -Indexes
 SetEnv TZ Asia/Jakarta
-SetEnv SITE_WEBMASTER "OTSEE"
-SetEnv SITE_WEBMASTER_URI mailto:me@vixia.xyz
 Header set Set-Cookie "language=%{lang}e; path=/;" env=lang
-
-ErrorDocument 404 /public/error/404.html
 
 <IfModule mod_gzip.c>
     mod_gzip_on       Yes
