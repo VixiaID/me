@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'dosis';
+  src: url('/public/font/Dosis-Light.ttf');
+}
+html {
+  background-color: #090909;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}
+.page-one {
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  margin: 15px 5px;
+  padding: 25px 20px 5px;
+}
+.page-one-border1 {
+  width: 140px;
+  height: 140px;
+  background-color: #a023f4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.page-one-border2 {
+  width: 135px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  border-radius: 50%;
+  margin: auto;
+}
+.page-one-photo {
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  border-radius: 50%;
+}
+.page-one-desc {
+  text-align: center;
+}
+.identity-name {
+  color: #46cbde;
+  font-size: 25px;
+  font-family: verdana;
+  font-weight: bold;
+}
+.page-two {
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  margin: 25px 5px;
+  padding: 25px 20px 5px;
+  color: white;
+}
+.page-two-desc {
+  margin: 5px 10px 20px;
+  letter-spacing: 1px;
+  line-height: 45px;
+}
+.fab, .fas {
+  margin-left: 12px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.github, .telegram, .mail {
+  font-size: 15px;
+}
+.footer {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: dosis;
+}
+.footer p {
+  color: white;
+}
+.footer a {
+  color: #46cbde;
+  font-family: verdana;
+}
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}

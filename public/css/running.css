@@ -1,0 +1,37 @@
+.identity-desc {
+  color: white;
+}
+.page-identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+}
+.identity-desc-job {
+  font-size: 17px;
+  padding-left: 0.3rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.page-identity p span.typed {
+  font-weight: normal;
+  color: #dd7732;
+}
+.page-identity p span.cursor {
+  display: inline-block;
+  background-color: #dd7732;
+  margin-left: 0.1rem;
+  width: 2px;
+  animation: blink 1s infinite;
+}
+.page-identity p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #dd7732; }
+  49% { background-color: #dd7732; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #dd7732; }
+}
