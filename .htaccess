@@ -1,6 +1,6 @@
 ErrorDocument 404 /public/error/404.html
 
-Options -Indexes
+#Options -Indexes
 SetEnv TZ Asia/Jakarta
 Header set Set-Cookie "language=%{lang}e; path=/;" env=lang
 
